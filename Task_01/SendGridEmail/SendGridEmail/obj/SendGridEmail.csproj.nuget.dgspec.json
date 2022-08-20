@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nifra\\Desktop\\Task_01\\SendGridEmail\\SendGridEmail\\SendGridEmail.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nifra\\Desktop\\Task_01\\SendGridEmail\\SendGridEmail\\SendGridEmail.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nifra\\Desktop\\Task_01\\SendGridEmail\\SendGridEmail\\SendGridEmail.csproj",
+        "projectName": "SendGridEmail",
+        "projectPath": "C:\\Users\\Nifra\\Desktop\\Task_01\\SendGridEmail\\SendGridEmail\\SendGridEmail.csproj",
+        "packagesPath": "C:\\Users\\Nifra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nifra\\Desktop\\Task_01\\SendGridEmail\\SendGridEmail\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nifra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
